@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    position: relative;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100% !important;
+}
+
+#addRowForm input {
+    margin: 5px;
+}
+
+#saveChanges, #refreshTable, #startScan, #submitRow, .btn-danger {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#editRowForm {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.bg-primary {
+    background-color: #004b87 !important;
+}
+
+.btn-info {
+    background-color: #004b87;
+    border-color: #004b87;
+}
+
+.btn-success {
+    background-color: #d32f2f;
+    border-color: #d32f2f;
+}
+
+.footer {
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Paginacija */
+.paginate_button.page-item a {
+    color: #004b87 !important;
+}
+
+.paginate_button.page-item.active a {
+    background-color: #ffffff !important;
+    border-color: #004b87 !important;
+}
+
+.paginate_button.page-item a:hover {
+    background-color: #004b87 !important;
+    border-color: #004b87 !important;
+    color: #ffffff !important;
+}
+
+/* Dodatni CSS za začetno stran */
+#currentDate, #currentTime {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #004b87;
+}
+
+.btn-custom {
+    background-color: #004b87;
+    border-color: #004b87;
+    color: #ffffff;
+}
+
+.btn-custom:hover {
+    background-color: #003366;
+    border-color: #003366;
+}
+
+/* SVG ozadje */
+.svg-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.svg-background svg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+/*search*/
+.highlight {
+    background-color: #FFFF00; /* Fluorescentno rumena barva */
+}
+
+/* Stilizacija iskalne vrstice */
+.dataTables_filter {
+    float: right;
+    text-align: right;
+}
+
+.dataTables_filter label {
+    margin-bottom: 10px;
+}
+
+.dataTables_filter input {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+/* Responsive styling for search input */
+@media (max-width: 768px) {
+    .dataTables_filter {
+        text-align: left;
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
